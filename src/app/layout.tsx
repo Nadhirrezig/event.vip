@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   title: "VIP EVENTS - Premium Corporate Travel & Events",
   description:
     "Elevate your corporate events and executive travel experiences with VIP EVENTS by VIP GROUP. Luxury solutions for enterprises and companies.",
-  generator: "v0.app",
   keywords: ["corporate events", "executive travel", "luxury travel", "VIP events", "corporate solutions"],
   authors: [{ name: "VIP GROUP" }],
   creator: "VIP GROUP",
@@ -29,19 +28,17 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/icon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/favicon.ico",
+        type: "image/x-icon",
       },
     ],
     apple: "/apple-icon.png",
+
   },
   openGraph: {
     type: "website",
